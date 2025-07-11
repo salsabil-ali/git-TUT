@@ -8,6 +8,7 @@
 </head>
 
 <body>
+  <div class="tot">
   <div class="container">
     <img class="avi-logo" src="logo.png" alt="Logo">
     <h1 class="avi-ti">Aviation Club</h1>
@@ -15,17 +16,25 @@
 
 
     <form action ="/action.php" method="post">
+      <div class="text">
 
 <label for="b">Full name (in English)</label>
     <input type="text" id="b" placeholder="Enter Full name" name="Full name (in English)" required>
-    <br>
+    </div>
+
+
+    <div class="text">
  <label for="b">Phone number</label>
     <input type="text" id="b" placeholder="Enter phone Nu" name="phone number"required>
-    <br>
+    </div>
+
+
+    <div class="E-text">
      <label for="b">E-mail</label>
     <input type="text" id="b" placeholder="Enter E-mail" name="E-mail"required>
-    <br>
-<div>
+    </div>
+
+    <div class="text">
     <label for="academic year">academic year</label>
     <select name="academic year" id="academic year" required>
     <option value="" selected="true" disabled="true">academic year</option>
@@ -35,8 +44,9 @@
     <option value="senior1">senior1</option>
     <option value="senior2">senior2</option>
     </select>
-</div>
-<div>
+    </div>
+
+<div class="text">
       <label for="Department">Department</label>
     <select name="Department" id="Department" required>
     <option value="" selected="true" disabled="true">Department</option>
@@ -47,7 +57,7 @@
     </select>
     </div>
 
-  <div>
+  <div class="text">
       <label for="First preference">First preference</label>
     <select name="First preference" id="First preference" required>
     <option value="" selected="true" disabled="true">First preference</option>
@@ -59,7 +69,7 @@
     </div>  
 
 
-    <div>
+    <div class="text">
       <label for="second preference">second preference</label>
     <select name="second preference" id="second preference" required>
     <option value="" selected="true" disabled="true">second preference</option>
@@ -70,10 +80,12 @@
     </select>
     </div> 
 
-    <input type="submit" value="register">
 
-    </form>
+
+<div class="register-btn">
+    <input type="submit" value="register">
 </div>
-    
+    </form>
+   </div> 
 </body>
 </html>

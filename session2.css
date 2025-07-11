@@ -2,6 +2,7 @@
     padding:0;
     margin:0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 body{
@@ -12,10 +13,12 @@ body{
 
 .container{
 background-color: rgba(0, 0, 0, 0.6);
-  width: 700px;
+  width: 740px;
   margin: 0 auto;
   border-radius: 10px;
-  padding: 20px;
+  padding: 28px;
+  border: 0;
+  height: fit-content;
 }
 
 .avi-logo{
@@ -28,7 +31,48 @@ background-color: rgba(0, 0, 0, 0.6);
     color: white;
     text-align: center;
     font-size: 24px;
-    border-radius: 10px;
-    padding-bottom: 10px;
+  border-bottom: 1px gray solid;
+  padding-bottom: 10px;
+  
+}
+.tot{
+     margin:16px 0;
 }
 
+.text , .E-text{
+   margin:16px 0;
+}
+
+.text label ,
+ .E-text label{
+    color: white;
+    display:block ;
+font-size: 20px;
+}
+
+
+ .text input,
+.text select,
+ .E-text input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+ }
+
+ .register-btn input{
+    display:block ;
+    width: 100%;
+    color: white;
+    background-color: rgba(77, 77, 248, 0.3);
+    padding:10px;
+    border: 0;
+    border-radius:4px ;
+    margin: 40px 0 0 0;
+ }
+
+ .register-btn input:hover{
+   background-color:  rgba(0, 0, 168, 1);
+    transition: 300ms;
+    cursor: pointer;
+
+ }
