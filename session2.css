@@ -1,0 +1,10 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-image: url(main_bg7.jpg);
+    background-size: cover;
+    background-position: center;
+}
